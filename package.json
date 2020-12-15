@@ -13,6 +13,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist/todo-app"
   },
+  "homepage": "https://herrmoriden.github.io/kms_2020/",
   "private": true,
   "dependencies": {
     "@angular/animations": "^11.0.3",

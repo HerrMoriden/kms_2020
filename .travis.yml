@@ -27,7 +27,7 @@ script:
   - ng test --watch false --browsers ChromeHeadless
 # sth doesnt work with this cause apperantly some chrome version doesnt fit ( look at travis report #42.1 )
 #  - ng e2e --protractor-config='e2e/ci.protractor.conf.js'
-  - ng build
+  - ng build --prod --base-href ./
 
 deploy:
   provider: pages
